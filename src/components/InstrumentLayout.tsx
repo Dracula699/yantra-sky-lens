@@ -6,9 +6,10 @@ interface InstrumentLayoutProps {
   children: ReactNode;
   title: string;
   subtitle: string;
+  visualContent?: ReactNode;
 }
 
-export const InstrumentLayout = ({ children, title, subtitle }: InstrumentLayoutProps) => {
+export const InstrumentLayout = ({ children, title, subtitle, visualContent }: InstrumentLayoutProps) => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -26,6 +27,15 @@ export const InstrumentLayout = ({ children, title, subtitle }: InstrumentLayout
             </p>
           </div>
         </div>
+
+        {/* Visual Content Section (Images/3D Models) */}
+        {visualContent && (
+          <div className="container mx-auto px-4 py-12 md:py-16">
+            <div className="flex justify-center items-center min-h-[400px] bg-gradient-to-br from-background to-muted/30 rounded-lg border border-border/50 animate-fade-in">
+              {visualContent}
+            </div>
+          </div>
+        )}
 
         {/* Content */}
         <div className="container mx-auto px-4 py-12 md:py-16">

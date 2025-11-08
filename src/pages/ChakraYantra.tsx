@@ -6,6 +6,12 @@ const ChakraYantra = () => {
     <InstrumentLayout
       title="Chakra Yantra"
       subtitle="The wheel-shaped instrument that revolutionized celestial tracking in ancient India"
+      visualContent={
+        <div className="text-muted-foreground text-center p-8">
+          <p className="text-lg mb-2">📷 Add your image or 3D model here</p>
+          <p className="text-sm">Replace this section with your image or embedded 3D model</p>
+        </div>
+      }
     >
       <ContentSection title="Definition" icon="📖">
         <p>
