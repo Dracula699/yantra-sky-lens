@@ -30,8 +30,8 @@ export const InstrumentLayout = ({ children, title, subtitle, visualContent }: I
 
         {/* Visual Content Section (Images/3D Models) */}
         {visualContent && (
-          <div className="container mx-auto px-4 py-12 md:py-16">
-            <div className="flex justify-center items-center min-h-[400px] bg-gradient-to-br from-background to-muted/30 rounded-lg border border-border/50 animate-fade-in">
+          <div className="container mx-auto px-4 py-8 md:py-12">
+            <div className="flex justify-center items-center min-h-[200px] bg-gradient-to-br from-background to-muted/30 rounded-lg border border-border/50 animate-fade-in">
               {visualContent}
             </div>
           </div>

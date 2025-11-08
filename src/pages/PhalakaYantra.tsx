@@ -6,6 +6,11 @@ const PhalakaYantra = () => {
     <InstrumentLayout
       title="Phalaka Yantra"
       subtitle="The flat disc instrument that brought unprecedented precision to celestial measurements"
+      visualContent={
+        <div className="text-muted-foreground text-center p-6">
+          <p className="text-sm">📷 Add your image or 3D model here</p>
+        </div>
+      }
     >
       <ContentSection title="Definition & Origin" icon="📖">
         <p>

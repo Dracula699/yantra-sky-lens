@@ -6,6 +6,11 @@ const VernierCaliper = () => {
     <InstrumentLayout
       title="Vernier Caliper"
       subtitle="The precision measuring tool that revolutionized accurate length measurement"
+      visualContent={
+        <div className="text-muted-foreground text-center p-6">
+          <p className="text-sm">📷 Add your image or 3D model here</p>
+        </div>
+      }
     >
       <ContentSection title="Definition & Origin" icon="📖">
         <p>

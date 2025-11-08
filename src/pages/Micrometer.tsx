@@ -6,6 +6,11 @@ const Micrometer = () => {
     <InstrumentLayout
       title="Micrometer Screw Gauge"
       subtitle="The ultimate precision instrument for measuring microscopic dimensions with extraordinary accuracy"
+      visualContent={
+        <div className="text-muted-foreground text-center p-6">
+          <p className="text-sm">📷 Add your image or 3D model here</p>
+        </div>
+      }
     >
       <ContentSection title="Definition & Introduction" icon="📖">
         <p>

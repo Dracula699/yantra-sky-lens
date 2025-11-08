@@ -6,6 +6,11 @@ const DhanurYantra = () => {
     <InstrumentLayout
       title="Dhanur Yantra"
       subtitle="The bow-shaped instrument that revolutionized angular measurement in the 5th century"
+      visualContent={
+        <div className="text-muted-foreground text-center p-6">
+          <p className="text-sm">📷 Add your image or 3D model here</p>
+        </div>
+      }
     >
       <ContentSection title="Definition & Origin" icon="📖">
         <p>
