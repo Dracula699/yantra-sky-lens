@@ -8,7 +8,8 @@ const DhanurYantra = () => {
       subtitle="The bow-shaped instrument that revolutionized angular measurement in the 5th century"
       visualContent={
         <div className="text-muted-foreground text-center p-6">
-          <p className="text-sm">📷 Add your image or 3D model here</p>
+          
+           <img src="/assets/dhanuryantra.png"></img>
         </div>
       }
     >

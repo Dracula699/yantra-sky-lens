@@ -8,7 +8,7 @@ const VernierCaliper = () => {
       subtitle="The precision measuring tool that revolutionized accurate length measurement"
       visualContent={
         <div className="text-muted-foreground text-center p-6">
-          <p className="text-sm">📷 Add your image or 3D model here</p>
+           <img src="/assets/VR.png"></img>
         </div>
       }
     >

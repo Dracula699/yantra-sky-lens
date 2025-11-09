@@ -2,6 +2,8 @@ import { ReactNode } from "react";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
+
+
 interface InstrumentLayoutProps {
   children: ReactNode;
   title: string;

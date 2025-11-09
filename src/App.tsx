@@ -11,6 +11,8 @@ import PhalakaYantra from "./pages/PhalakaYantra";
 import DhanurYantra from "./pages/DhanurYantra";
 import VernierCaliper from "./pages/VernierCaliper";
 import Micrometer from "./pages/Micrometer";
+import '@google/model-viewer';
+
 
 const queryClient = new QueryClient();
 

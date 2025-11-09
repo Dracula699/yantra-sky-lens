@@ -8,7 +8,7 @@ const YastiYantra = () => {
       subtitle="The foundational angular measuring instrument that bridged observation and mathematics"
       visualContent={
         <div className="text-muted-foreground text-center p-6">
-          <p className="text-sm">📷 Add your image or 3D model here</p>
+          <img src="/assets/yastiyantra.png"></img>
         </div>
       }
     >

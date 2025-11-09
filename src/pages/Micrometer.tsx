@@ -1,5 +1,6 @@
 import { InstrumentLayout } from "@/components/InstrumentLayout";
 import { ContentSection } from "@/components/ContentSection";
+import { ScrewGuage3D } from "@/components/ScrewGuage3D";
 
 const Micrometer = () => {
   return (
@@ -7,8 +8,9 @@ const Micrometer = () => {
       title="Micrometer Screw Gauge"
       subtitle="The ultimate precision instrument for measuring microscopic dimensions with extraordinary accuracy"
       visualContent={
-        <div className="text-muted-foreground text-center p-6">
-          <p className="text-sm">📷 Add your image or 3D model here</p>
+        <div className="flex justify-center items-center w-full h-96">
+          {/* <p className="text-sm">📷 Add your image or 3D model here</p> */}
+         <img src="/assets/SGreal.png"></img>
         </div>
       }
     >

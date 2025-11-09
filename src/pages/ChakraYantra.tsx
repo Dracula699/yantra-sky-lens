@@ -8,7 +8,7 @@ const ChakraYantra = () => {
       subtitle="The wheel-shaped instrument that revolutionized celestial tracking in ancient India"
       visualContent={
         <div className="text-muted-foreground text-center p-6">
-          <p className="text-sm">📷 Add your image or 3D model here</p>
+           <img src="/assets/chakraYantra.png"></img>
         </div>
       }
     >
@@ -42,3 +42,5 @@ const ChakraYantra = () => {
 };
 
 export default ChakraYantra;
+
+
