@@ -14,86 +14,43 @@ const YastiYantra = () => {
     >
       <ContentSection title="Definition" icon="📖">
         <p>
-          The Yasti Yantra is an ancient angular measuring instrument whose name derives from the Sanskrit word "Yasti," 
-          meaning "rod" or "staff." This simple yet ingenious device represents one of the earliest attempts to systematically 
-          measure angles in the celestial sphere.
+          The Yasti Yantra was an ancient Indian angular measuring instrument consisting of a graduated rod used 
+          to determine altitudes, shadow lengths, and angular distances. It worked like a basic sighting device 
+          for sky measurements.
         </p>
         <p className="mt-4">
-          Despite its apparent simplicity, the Yasti Yantra embodies profound mathematical principles and demonstrates 
-          the sophisticated understanding of geometry that ancient Indian scholars possessed. It served as a fundamental 
-          tool for astronomical observations and laid the groundwork for more complex measuring instruments.
+          Yasti Yantra was used in the 12th century during the time of Bhaskar-II, and was later revived and 
+          refined by Maharaja Jai Singh II during the 18th century (around 1724 CE), when he built the Jantar Mantars.
         </p>
-      </ContentSection>
-
-      <ContentSection title="How It Works" icon="📐">
-        <p>
-          The Yasti Yantra operates as a basic sighting device for making angular measurements of celestial objects. 
-          Its design incorporates principles that would later influence the development of theodolites and other surveying instruments.
-        </p>
-        <div className="mt-4 space-y-3">
-          <div className="flex items-start gap-3">
-            <span className="text-gold-accent font-semibold">1.</span>
-            <p>A vertical staff or rod serves as the primary sighting axis</p>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="text-gold-accent font-semibold">2.</span>
-            <p>Graduated markings along the staff enable angular measurements</p>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="text-gold-accent font-semibold">3.</span>
-            <p>A movable sighting arm allows alignment with celestial objects</p>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="text-gold-accent font-semibold">4.</span>
-            <p>The intersection point determines the angular position</p>
-          </div>
-        </div>
       </ContentSection>
 
       <ContentSection title="Evolution & Mathematical Foundation" icon="🔢">
         <p>
-          The Yasti Yantra represents a crucial link between physical measurements and trigonometric principles. 
-          Ancient Indian mathematicians recognized that angular measurements could be related to geometric ratios, 
-          leading to the development of sophisticated trigonometric tables.
+          The Yasti Yantra was one of the earliest tools that laid the foundation for trigonometry by linking 
+          physical measurements to mathematical angles. By measuring shadows and angles, it laid the groundwork 
+          for trigonometric principles like sine, cosine, and tangent, which are now fundamental to fields ranging 
+          from engineering to space science.
         </p>
         <p className="mt-4">
-          This instrument demonstrated that:
-        </p>
-        <ul className="list-disc list-inside mt-4 space-y-2">
-          <li>Angular positions could be precisely quantified using simple geometric principles</li>
-          <li>Physical measurements could be converted into mathematical relationships</li>
-          <li>Systematic observation required standardized measuring tools</li>
-          <li>The connection between terrestrial and celestial measurements could be established</li>
-        </ul>
-      </ContentSection>
-
-      <ContentSection title="Historical Use & Applications" icon="🌟">
-        <p>
-          Ancient astronomers employed the Yasti Yantra for various critical measurements:
-        </p>
-        <ul className="list-disc list-inside mt-4 space-y-2">
-          <li>Measuring the angular heights of celestial bodies above the horizon</li>
-          <li>Determining the zenith distances of stars and planets</li>
-          <li>Calculating the altitude of the sun at different times of day</li>
-          <li>Establishing reference points for astronomical observations</li>
-          <li>Training students in the fundamentals of angular measurement</li>
-        </ul>
-        <p className="mt-4">
-          The data collected using Yasti Yantras contributed to the development of astronomical tables and calendars, 
-          helping ancient societies track time, predict seasons, and organize agricultural activities with remarkable precision.
+          It was the "first protractor" of the ancient world, turning sky observations into timeless math.
         </p>
       </ContentSection>
 
-      <ContentSection title="Legacy in Modern Science" icon="✨">
+      <ContentSection title="How The Instrument Works" icon="📐">
+        <ul className="list-disc list-inside space-y-2">
+          <li>Vertical stick mounted on flat base</li>
+          <li>Used under sunlight to cast shadow</li>
+          <li>Shadow's length & angle were measured</li>
+          <li>Helped calculate sun's altitude</li>
+          <li>Used to find local time & direction</li>
+          <li>Simple design, high accuracy</li>
+        </ul>
+      </ContentSection>
+
+      <ContentSection title="Historical Use" icon="🌟">
         <p>
-          The principles embodied in the Yasti Yantra continue to influence modern measuring instruments. 
-          The concept of using a graduated scale with a movable sighting mechanism forms the basis of many contemporary tools, 
-          from theodolites to sextants.
-        </p>
-        <p className="mt-4">
-          This ancient instrument reminds us that scientific progress builds upon fundamental principles, 
-          and that the quest for precision measurement has been a constant throughout human history, 
-          transcending cultures and epochs.
+          Was used in measuring angular heights of celestial bodies (like sun, moon, and stars), shadow lengths 
+          for timekeeping and calendar calculations.
         </p>
       </ContentSection>
     </InstrumentLayout>
