@@ -21,7 +21,7 @@ export const Header = () => {
             to="/" 
             className="text-xl font-semibold text-night-sky hover:text-gold-accent transition-colors duration-300"
           >
-            Ancient Astronomy
+            Made: Sai Thakare, Deployed: Gandhaar Joshi
           </Link>
           
           <div className="hidden md:flex items-center gap-1">
